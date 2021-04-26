@@ -1,0 +1,5 @@
+# Simple setup for Drupal 8 in Docker
+
+## To make PHPUnit work with Drupal 8
+Necessary to get a version of PHPUnit compatible with Drupal 8:
+```composer require --dev phpunit/phpunit=7.0.0 symfony/phpunit-bridge```
